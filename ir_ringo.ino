@@ -209,4 +209,3 @@ void loop() {
     CentralServo.write(CENTRAL_SERVO_ZERO_VALUE + getAngle(CENTRAL_SERVO_AMPLITUDE, globalPhase, angleShiftCentralServo));
   }
 }
-
